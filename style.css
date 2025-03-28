@@ -1,0 +1,82 @@
+.columna {
+display: flex ;
+flex-direction: row;
+justify-content: center;
+align-items: center  ;
+
+}
+.imagen-centro{
+    
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+    }
+    
+.Logo {
+
+    text-align: center;
+
+
+
+}
+.Botonsi {
+    background-color: #34db4a; /* Color de fondo inicial */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor a mano cuando pasa sobre el botón */
+    border-radius: 20px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color */
+
+}
+  /* Estilo cuando el mouse pasa sobre el botón */
+  button:hover {
+    background-color: #2ecc71; /* Color de fondo cuando el mouse está sobre el botón */
+}
+
+
+.Botonno {
+    text-align: center;
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.Botonno:hover {
+    background-color: crimson;
+}
+
+body {
+    background-color: cornflowerblue;
+
+ 
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    font-family: Barriecito;
+    color: rgb(0, 11, 92);
+}
+
+p {
+
+    text-align: center;
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 35px;
+}
+
+h3 {
+    text-align: center ;
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 35px;
+
+}
+
+
